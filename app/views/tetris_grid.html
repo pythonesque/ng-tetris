@@ -1,0 +1,11 @@
+<div ng-controller="tetrisLogicController" ng-init="initialize(30, 10)">
+  <table>
+    <tbody>
+      <tr ng-repeat="row in rows()">
+        <td ng-repeat="cell in row" style="background-color: black; border-image: 0px; border:0.5px solid white; padding:0px; margin:0px; border-spacing:0px; background-color:{{cell(row,col) || black}}; width:20px; height:20px">
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div ng
+</div>
